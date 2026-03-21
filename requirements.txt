@@ -1,0 +1,15 @@
+# Orchestration & LLM
+llama-index>=0.12.0
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-vector-stores-qdrant
+
+# Vector Database & Embeddings
+qdrant-client
+sentence-transformers
+
+# Data Extraction & Utilities
+GitPython
+requests
+pyyaml
+python-dotenv
