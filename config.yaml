@@ -1,0 +1,10 @@
+paths:
+  repo_path: "./my-target-repo"  # Path to the codebase you want to analyze
+  qdrant_path: "./data/qdrant_db"
+
+models:
+  llm: "mistral"
+  embed_model: "BAAI/bge-small-en-v1.5" # Fast, high-performance local embeddings
+
+jira:
+  base_url: "https://yourcompany.atlassian.net"
