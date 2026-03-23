@@ -155,7 +155,7 @@ st.markdown("""
 
 # --- 2. DUAL-PANE SIDEBAR (Configuration) ---
 with st.sidebar:
-    st.image("https://img.icons8.com/ghost/100/00f2ff/sherlock-holmes.png", width=80)
+    st.markdown("<h1 style='text-align: center; font-size: 80px; margin-bottom: 0;'>🕵️‍♂️</h1>", unsafe_allow_html=True)
     st.title("Forensic Config")
     st.markdown("---")
     
@@ -280,4 +280,4 @@ if investigate_btn:
                 """, unsafe_allow_html=True)
             else:
                 status.update(label="Investigation Stalled: No Trace Found", state="error", expanded=False)
-                st.error("No linked Jira tickets found in the commit messages for this code block.")
+                st.error("No linked Jira tickets found in the commit messages for this code block.")
