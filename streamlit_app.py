@@ -51,13 +51,16 @@ st.markdown("""
         border-radius: 8px;
         height: 3.5em;
         background: linear-gradient(145deg, #e6e6e6, #cccccc) !important;
-        color: #111 !important;
+        color: #000000 !important;
         font-weight: 800;
         letter-spacing: 1px;
         border: 1px solid #b3b3b3;
         transition: all 0.3s ease-in-out;
         box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         text-transform: uppercase;
+    }
+    .stButton>button p, .stButton>button div, .stButton>button span {
+        color: #000000 !important;
     }
     .stButton>button:hover {
         background: linear-gradient(145deg, #ffffff, #e6e6e6) !important;
