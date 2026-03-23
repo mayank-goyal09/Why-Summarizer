@@ -1,0 +1,17 @@
+[
+    {
+        "id": "PROJ-777",
+        "title": "The 'I don't know why' Fix",
+        "description": "The senior dev left on Friday and said if we delete this specific 'if' statement, the whole database explodes. No one knows why. We are keeping it for 'Vibes' and safety."
+    },
+    {
+        "id": "PROJ-007",
+        "title": "Secret CEO Mission",
+        "description": "The CEO wants a hidden 'Easter Egg'. If a user clicks the logo 10 times, it should play a sound of a goat screaming. This is high priority for the marketing launch."
+    },
+    {
+        "id": "PROJ-911",
+        "title": "Legal Compliance: Project 'Don't Get Sued'",
+        "description": "European law (GDPR) says we cannot store user birthdays in plain text. This encryption logic was added to avoid a 20-million-euro fine."
+    }
+]

@@ -13,3 +13,4 @@ GitPython
 requests
 pyyaml
 python-dotenv
+streamlit

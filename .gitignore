@@ -1,0 +1,9 @@
+# .gitignore snippets
+# .gitignore snippets
+# data/ (allowing mock data)
+data/qdrant_db/
+__pycache__/
+.env
+*.log
+.venv/
+venv/

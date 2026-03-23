@@ -1,2 +1,0 @@
-# Why-Summarizer
-Why-Summarizer

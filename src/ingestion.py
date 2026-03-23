@@ -1,3 +1,5 @@
+import json
+import os
 from llama_index.core import Document, StorageContext, VectorStoreIndex
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -34,3 +36,9 @@ def initialize_vector_db(jira_data_list):
     )
     print("✅ Jira Knowledge Base Indexed Locally!")
     return index
+
+def load_mock_jira_data():
+    """Loads mock Jira ticket data from the local JSON file."""
+    data_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "mock_jira.json")
+    with open(data_path, 'r') as f:
+        return json.load(f)
