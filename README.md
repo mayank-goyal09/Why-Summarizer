@@ -25,3 +25,55 @@
 </div>
 
 ---
+
+## ⚡ **THE MISSION AT A GLANCE**
+
+<table>
+<tr>
+<td width="55%">
+
+### 🎯 **The Problem**
+In large legacy systems, developers often find "confusing" code blocks with no clear explanation. Institutional knowledge lives in Jira tickets and meeting notes, not just the code.
+
+### 🛡️ **The Solution**
+**Sherlock-RAG** acts as a professional-grade bridge. It scans specific code lines for "fingerprints" (commit hashes and Jira IDs), retrieves the associated business logic from a **Qdrant Vector Database**, and uses a private **Mistral-7B** model to synthesize a human-readable explanation of *why* that code exists.
+
+</td>
+<td width="45%">
+
+### ✨ **Key Highlights**
+
+| Feature | Details |
++|---------|---------|
++| 🔍 **Git Detective** | Line-by-line commit traceability |
++| 🎟️ **Jira Linking** | Auto-extracts Ticket IDs from messages |
++| 🧠 **RAG Engine** | LlamaIndex + Qdrant Vector Search |
++| 🔐 **Privacy First** | 100% Local Inference via Ollama |
++| 🎨 **Forensic UI** | Elite Dark-Green/Yellow aesthetic |
++| 🪟 **Glassmorphism** | Modern, sleek dashboard design |
++| ⚡ **Instant Indexing** | One-click Knowledge Base setup |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔬 **THE ARCHAEOLOGY PIPELINE**
+
+```mermaid
+graph TD
+    A[📄 Confusing Code Snippet] --> B[🕵️ Git Detective]
+    B --> C{🔍 Find Jira ID?}
+    C -->|Yes| D[📚 Qdrant Vector DB]
+    C -->|No| E[🛑 Trace Stalled]
+    D --> F[🧬 LlamaIndex Context Retrieval]
+    F --> G[🧠 Mistral-7B / Ollama]
+    G --> H[💡 Business Intent Summary]
+    H --> I[📱 Forensic Dashboard]
+    
+    style A fill:#4CAF50,color:#fff
+    style D fill:#d4af37,color:#fff
+    style G fill:#00f2ff,color:#000
+    style I fill:#05140b,color:#fff
+```
