@@ -12,6 +12,10 @@
 
 <br/>
 
+[![🚀 Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Sherlock--RAG-4facfe?style=for-the-badge&labelColor=05140b)](https://why-summarizer-project.streamlit.app/)
+
+<br/>
+
 [![GitHub Stars](https://img.shields.io/github/stars/mayank-goyal09/Why-Summarizer?style=for-the-badge&color=ffd700)](https://github.com/mayank-goyal09/Why-Summarizer/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/mayank-goyal09/Why-Summarizer?style=for-the-badge&color=87ceeb)](https://github.com/mayank-goyal09/Why-Summarizer/network)
 ![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
