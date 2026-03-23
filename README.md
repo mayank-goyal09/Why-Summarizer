@@ -11,3 +11,17 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 <br/>
+
+[![GitHub Stars](https://img.shields.io/github/stars/mayank-goyal09/Why-Summarizer?style=for-the-badge&color=ffd700)](https://github.com/mayank-goyal09/Why-Summarizer/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mayank-goyal09/Why-Summarizer?style=for-the-badge&color=87ceeb)](https://github.com/mayank-goyal09/Why-Summarizer/network)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+<br/>
+
+### 🧠 **Recovering the 'Why' behind every line of code.** 
+
+### **Git Archeology → Vector Knowledge → Business Intent** 🚀
+
+</div>
+
+---
