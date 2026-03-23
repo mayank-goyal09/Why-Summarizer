@@ -2,7 +2,7 @@
 
 # 🕵️‍♂️ Sherlock-RAG — Forensic Code Intelligence
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&duration=3500&pause=1000&color=4CAF50&center=true&vCenter=true&multiline=true&width=900&height=100&lines=The+Traceability+Engine+for+Legacy+Code+🔍;Bridging+Source+Code+to+Business+Logic;Git+Detective+%7C+Qdrant+RAG+%7C+Mistral+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&duration=3500&pause=1000&color=4CAF50&center=true&vCenter=true&multiline=true&width=900&height=150&lines=The+Traceability+Engine+for+Legacy+Code+🔍;Bridging+Source+Code+to+Business+Logic;Git+Detective+%7C+Qdrant+RAG+%7C+Mistral+AI)](https://git.io/typing-svg)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-RAG-8A2BE2?style=for-the-badge&logo=ai&logoColor=white)
@@ -77,6 +77,7 @@ graph TD
     style G fill:#00f2ff,color:#000
     style I fill:#05140b,color:#fff
 ```
+
 ### **How it Works Under the Hood:**
 
 1.  **Git Detective**: Uses `GitPython` to run a forensic blame on the target file. It extracts the commit messages associated with specific line ranges to find Jira Ticket IDs (e.g., `PROJ-777`).
@@ -220,4 +221,3 @@ Give a ⭐️ if this project helped you uncover the "Why" in your legacy code!
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4CAF50,100:ffd700&height=120&section=footer)
 
 </div>
-
