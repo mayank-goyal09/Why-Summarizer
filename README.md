@@ -97,3 +97,65 @@ graph TD
 | 📁 **Version Control** | Git / GitPython | Historical data extraction |
 
 ---
+
+## 🎨 **THE FORENSIC DASHBOARD**
+
+<div align="center">
+    <h3>✨ Elite UI with Glassmorphism Design ✨</h3>
+</div>
+
+- **Dual-Pane Logic**: A configuration sidebar for repository paths and a main "Evidence Submission" area.
+- **Provenance Timeline**: A visual mapping that tracks the investigation from File → Git → Jira Ticket → AI Conclusion.
+- **Reasoning Cards**: AI summaries displayed with custom neon accents and glassmorphic transparency.
+- **Screen Shading**: A specialized background effect providing a high-tech "terminal" feel.
+
+---
+
+## 📂 **PROJECT STRUCTURE**
+
+```
+📂 Sherlock-RAG/
+│
+├── 📊 streamlit_app.py        # Elite Forensic Dashboard
+├── 📁 src/
+│   ├── ingestion.py          # Qdrant Vector DB setup & Mock data loader
+│   ├── engine.py             # LlamaIndex + Ollama reasoning engine
+│   └── utils.py              # GitDetective fingerprinting logic
+│
+├── 📁 data/
+│   └── mock_jira.json        # Historical knowledge base (Mock)
+│
+├── ⚙️ config.yaml             # Path and Model configurations
+├── 📦 requirements.txt        # Backend dependencies
+└── 📖 README.md               # You are here! 🎉
+```
+
+---
+
+## 🚀 **QUICK START GUIDE**
+
+### **Step 1: Install Ollama** 🧠
+Ensure you have **Ollama** installed and the **Mistral** model downloaded:
+```bash
+ollama pull mistral
+```
+
+### **Step 2: Clone & Environment** 📥
+```bash
+git clone https://github.com/mayank-goyal09/Why-Summarizer.git
+cd Why-Summarizer
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+### **Step 3: Install Dependencies** 📦
+```bash
+pip install -r requirements.txt
+```
+
+### **Step 4: Launch the Forensic Labs** 🕵️‍♂️
+```bash
+streamlit run streamlit_app.py
+```
+
+---
