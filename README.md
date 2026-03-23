@@ -159,3 +159,65 @@ streamlit run streamlit_app.py
 ```
 
 ---
+
+## 🧪 **SCENARIOS TO TRY**
+
+- **Scenario A**: Paste the encryption logic from a project and see if Sherlock links it to the GDPR compliance ticket.
+- **Scenario B**: Check the "Goat Scream" Easter Egg logic and find out it was a High-Priority CEO mission!
+- **Scenario C**: Analyze a confusing "if" statement that exists solely for "Vibes" and legacy safety.
+
+---
+
+## 📚 **SKILLS DEMONSTRATED**
+
+| **Skill** | **Implementation in Sherlock-RAG** |
+|:----------|:-----------------------------------|
+| **RAG Systems** | Built a complete retrieval-augmented generation pipeline with LlamaIndex. |
+| **Vector DB** | Implementing local Qdrant collections for high-speed metadata search. |
+| **MLOps** | Managing local LLM inference via Ollama for privacy-sensitive data. |
+| **UX/UI** | Advanced Streamlit customization using custom CSS, HTML, and Glassmorphism. |
+| **Git Automation** | Programmatic repository analysis using the GitBlame API. |
+
+---
+
+## 🤝 **CONTRIBUTING**
+
+Contributions are **always welcome**! 🚀
+
+1. 🍴 Fork the Project
+2. 🌱 Create your Branch (`git checkout -b feature/NewForensicTool`)
+3. 💾 Commit changes (`git commit -m 'Add new tool'`)
+4. 📤 Push to the Branch (`git push origin feature/NewForensicTool`)
+5. 🎁 Open a Pull Request
+
+---
+
+## 👨‍💻 **CONNECT WITH THE CHIEF DETECTIVE**
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-mayank--goyal09-181717?style=for-the-badge&logo=github)](https://github.com/mayank-goyal09)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank_Goyal-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mayank-goyal-4b8756363/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-4facfe?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mayank-portfolio-delta.vercel.app/)
+
+**Mayank Goyal**  
+📊 Data Analyst | 🧠 AI Engineer | 🕵️‍♂️ Code Archaeologist  
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ **Show your Support**
+Give a ⭐️ if this project helped you uncover the "Why" in your legacy code!
+
+<br/>
+
+### 🛠️ **Built with ❤️ & Deep Logic by Mayank Goyal**
+*"Solving code mysteries, one commit at a time."* 🔍✨
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4CAF50,100:ffd700&height=120&section=footer)
+
+</div>
+
