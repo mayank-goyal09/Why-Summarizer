@@ -77,3 +77,23 @@ graph TD
     style G fill:#00f2ff,color:#000
     style I fill:#05140b,color:#fff
 ```
+### **How it Works Under the Hood:**
+
+1.  **Git Detective**: Uses `GitPython` to run a forensic blame on the target file. It extracts the commit messages associated with specific line ranges to find Jira Ticket IDs (e.g., `PROJ-777`).
+2.  **Knowledge Retrieval**: The **Qdrant** database houses thousands of historical Jira descriptions. Using **BGE-Small** embeddings, Sherlock finds the exact ticket description linked to the code's "fingerprint."
+3.  **AI Reasoning**: It feeds both the **Confusing Code** and the **Jira Context** into **Mistral-7B**. The model is prompted to ignore the "What" (the syntax) and focus entirely on the "Why" (the business requirement).
+
+---
+
+## 🛠️ **TECHNOLOGY STACK**
+
+| **Category** | **Technologies** | **Purpose** |
+|:------------:|:-----------------|:------------|
+| 🐍 **Core Language** | Python 3.10+ | Primary development language |
+| 🗄️ **Vector Database** | Qdrant | Fast, local vector retrieval |
+| 🦜 **Orchestration** | LlamaIndex | RAG pipeline and data indexing |
+| 🧠 **Local LLM** | Ollama (Mistral-7B) | Private, air-gapped reasoning |
+| 🎨 **Frontend** | Streamlit | Forensic dashboard with custom CSS |
+| 📁 **Version Control** | Git / GitPython | Historical data extraction |
+
+---
